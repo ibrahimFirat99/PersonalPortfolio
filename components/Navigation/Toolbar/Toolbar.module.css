@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
+  padding: 2rem 0rem;
 }
 
 .toolbar .toolbar__logo a {
@@ -37,6 +37,7 @@
     text-decoration: none;
     padding-left: 1rem;
     transition: opacity 0.15s ease-in-out;
+    font-size: 1.1rem;
   }
 
   .toolbar .toolbar__navItems ul li a:hover {

@@ -1,6 +1,8 @@
-import Head from "next/head";
 import Navigation from "../components/Navigation/Navigation";
 import Footer from "../components/Footer/Footer";
+import About from "../components/About/About";
+
+import Head from "next/head";
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
       </Head>
       <Navigation />
       <main>
-        <p>MAIN</p>
+        <About />
       </main>
       <Footer />
     </div>

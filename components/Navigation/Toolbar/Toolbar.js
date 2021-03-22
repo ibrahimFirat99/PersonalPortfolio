@@ -1,5 +1,6 @@
 import DrawerToggle from "../DrawerToggle/DrawerToggle";
 import styles from "./Toolbar.module.css";
+import Link from "next/link";
 
 const Toolbar = (props) => {
   return (
@@ -8,18 +9,20 @@ const Toolbar = (props) => {
         <DrawerToggle click={props.drawerToggleClickHandler} />
       </div>
       <div className={styles.toolbar__logo}>
-        <a href="#Home">Logo</a>
+        <Link href="/">
+          <a>Logo</a>
+        </Link>
       </div>
       <div className={styles.toolbar__navItems}>
         <ul>
-          <li>
-            <a href="#Home">Home</a>
-          </li>
           <li>
             <a href="#About">About</a>
           </li>
           <li>
             <a href="#Portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#Blog">Blog</a>
           </li>
           <li>
             <a href="#Contact">Contact</a>
