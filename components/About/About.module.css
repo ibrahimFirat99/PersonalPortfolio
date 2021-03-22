@@ -1,3 +1,7 @@
+.wrapper {
+  margin-bottom: 2rem;
+}
+
 .wrapper h1 {
   font-size: 2.5rem;
 }
@@ -10,8 +14,22 @@
   text-align: justify;
   font-size: 1.2rem;
   line-height: 1.5;
+  margin-bottom: 2rem;
 }
 
-.wrapper p a {
+.wrapper p a#contact {
   color: #525252;
+  letter-spacing: 2px;
+}
+
+.wrapper a#resume {
+  background: #0e5dc4;
+  padding: 0.6rem 1rem;
+  text-decoration: none;
+  color: #f4f4f4;
+  border-radius: 3%;
+}
+
+.wrapper p a:hover {
+  opacity: 0.85;
 }
