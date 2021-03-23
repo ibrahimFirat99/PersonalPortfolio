@@ -1,28 +1,32 @@
 .wrapper {
-  margin-bottom: 2rem;
+  margin: 4rem 0rem;
 }
 
-.wrapper h1 {
+.wrapper .about {
+  margin-bottom: 4rem;
+}
+
+.wrapper .about h1 {
   font-size: 2.5rem;
 }
 
-.wrapper h1 span {
+.wrapper .about h1 span {
   color: #0e5dc4;
 }
 
-.wrapper p {
+.wrapper .about p {
   text-align: justify;
   font-size: 1.2rem;
   line-height: 1.5;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-.wrapper p a#contact {
+.wrapper .about p a.contact {
   color: #525252;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
 }
 
-.wrapper a#resume {
+.wrapper .about a.resume {
   background: #0e5dc4;
   padding: 0.6rem 1rem;
   text-decoration: none;
@@ -30,6 +34,28 @@
   border-radius: 3%;
 }
 
-.wrapper p a:hover {
+.wrapper .about p a:hover {
   opacity: 0.85;
+}
+
+.wrapper .milestones h2 {
+  border-bottom: 4px solid #0e5dc4;
+  width: fit-content;
+}
+
+.wrapper .milestones .eventWrapper {
+  border-bottom: 2px solid #afafaf;
+}
+
+.wrapper .milestones .eventWrapper h3 {
+  margin-bottom: 0.4rem;
+  color: #1a923e;
+}
+
+.wrapper .milestones .eventWrapper .event h4 {
+  margin: 0rem;
+}
+
+.wrapper .milestones .eventWrapper .event p {
+  margin-top: 0.2rem;
 }
