@@ -1,0 +1,53 @@
+.wrapper {
+  margin: 4rem 0rem;
+}
+
+.wrapper h2 {
+  border-bottom: 4px solid #0e5dc4;
+  width: fit-content;
+  margin: 0rem;
+}
+
+.wrapper p {
+  margin: 0.4rem 0rem 0rem 0rem;
+}
+
+.wrapper .projectsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.wrapper .projectsWrapper .project {
+  background: #fcfcfc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 5px #8c8c8c;
+  margin-bottom: 2rem;
+}
+
+.wrapper .projectsWrapper .project a {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.wrapper .projectsWrapper .project a .left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 2px solid #333;
+}
+
+.wrapper .projectsWrapper .project a .right p {
+  text-align: center;
+  line-height: 1.6;
+}
+
+.wrapper .projectsWrapper .project a .right span {
+  padding: 0.2rem 0.4rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
