@@ -17,7 +17,7 @@
 .wrapper .about p {
   text-align: justify;
   font-size: 1.2rem;
-  line-height: 1.5;
+  line-height: 1.6;
   margin-bottom: 1.5rem;
 }
 
@@ -41,6 +41,11 @@
 .wrapper .milestones h2 {
   border-bottom: 4px solid #0e5dc4;
   width: fit-content;
+  margin-bottom: 0rem;
+}
+
+.wrapper .milestones p {
+  margin-top: 0.4rem;
 }
 
 .wrapper .milestones .eventWrapper {
@@ -58,4 +63,5 @@
 
 .wrapper .milestones .eventWrapper .event p {
   margin-top: 0.2rem;
+  line-height: 1.5;
 }
