@@ -1,0 +1,82 @@
+.wrapper {
+  margin: 4rem 0rem;
+}
+
+.wrapper h2 {
+  border-bottom: 4px solid #0e5dc4;
+  width: fit-content;
+  margin: 0rem;
+}
+
+.wrapper form {
+  display: grid;
+  grid-template-areas:
+    "name email"
+    "message message"
+    "button button";
+}
+
+.wrapper form #name {
+  grid-area: name;
+  margin-bottom: 1rem;
+  margin-right: 2rem;
+}
+
+.wrapper form #email {
+  grid-area: email;
+  margin-bottom: 1rem;
+}
+
+.wrapper form #message {
+  grid-area: message;
+  margin-bottom: 2rem;
+}
+
+.wrapper form #button {
+  grid-area: button;
+  height: 40px;
+  width: 40%;
+}
+
+.wrapper form label h3 {
+  padding: 0;
+  margin: 0rem 0rem 0.4rem 0rem;
+}
+
+.wrapper form label input {
+  padding: 0.4rem 1rem;
+  font-size: 16px;
+  width: 100%;
+}
+
+.wrapper form label#message input {
+  height: 150px;
+}
+
+.wrapper .disclaimer {
+  font-size: 0.8rem;
+}
+
+.wrapper .resultMessage {
+  border: 2px solid black;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (max-width: 450px) {
+  .wrapper form {
+    grid-template-areas:
+      "name"
+      "email"
+      "message"
+      "button";
+  }
+
+  .wrapper form #name {
+    margin-right: 0rem;
+  }
+
+  .wrapper form #button {
+    width: 100%;
+  }
+}

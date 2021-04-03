@@ -1,0 +1,29 @@
+.footer {
+  padding: 1rem 0rem;
+  border-top: 2px solid #afafaf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer h4 {
+  text-align: center;
+  margin: 0rem 0rem 0.6rem 0rem;
+  padding: 0rem;
+}
+
+.footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 0.2rem;
+}
+
+.footer ul li a {
+  color: #333;
+}
