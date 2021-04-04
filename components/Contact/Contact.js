@@ -6,7 +6,7 @@ const Contact = () => {
   const [name, setName] = useState();
   const [email, setEmail] = useState();
   const [message, setMessage] = useState();
-  const [resultMessage, setResultMessage] = useState("");
+  const [resultMessage, setResultMessage] = useState();
 
   const contactForm = async (event) => {
     event.preventDefault();
@@ -79,7 +79,7 @@ const Contact = () => {
         may be considered as personally identifiable information with Ibrahim
         Firat. **
       </p>
-      <p className={styles.resultMessage}>{resultMessage}</p>
+      {resultMessage && <p className={styles.resultMessage}>{resultMessage}</p>}
     </div>
   );
 };

@@ -8,6 +8,15 @@
 .toolbar .toolbar__logo a {
   text-decoration: none;
   color: inherit;
+  font-size: 1.6rem;
+  border: 2px solid #b4b4b4;
+  padding: 0.2rem 0.6rem;
+}
+
+.toolbar .toolbar__logo a span {
+  text-transform: uppercase;
+  color: #0e5dc4;
+  letter-spacing: 2px;
 }
 
 .toolbar .toolbar__navItems {
@@ -42,5 +51,12 @@
 
   .toolbar .toolbar__navItems ul li a:hover {
     opacity: 0.8;
+  }
+}
+
+@media (max-width: 650px) {
+  .toolbar .toolbar__logo a {
+    border: none;
+    padding: 0;
   }
 }

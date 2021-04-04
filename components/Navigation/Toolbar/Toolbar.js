@@ -1,5 +1,6 @@
 import DrawerToggle from "../DrawerToggle/DrawerToggle";
 import styles from "./Toolbar.module.css";
+
 import Link from "next/link";
 
 const Toolbar = (props) => {
@@ -10,7 +11,9 @@ const Toolbar = (props) => {
       </div>
       <div className={styles.toolbar__logo}>
         <Link href="/">
-          <a>Logo</a>
+          <a>
+            Ibrahim <span>Firat</span>
+          </a>
         </Link>
       </div>
       <div className={styles.toolbar__navItems}>

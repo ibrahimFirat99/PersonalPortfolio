@@ -8,20 +8,19 @@
   text-align: center;
 }
 
-.footer h4 {
-  text-align: center;
-  margin: 0rem 0rem 0.6rem 0rem;
-  padding: 0rem;
+.footer p {
+  margin: 0rem 0rem 0.4rem 0rem;
 }
 
 .footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .footer ul li {
-  margin-bottom: 0.2rem;
+  margin: 0rem 0.2rem;
 }
 
 .footer ul li a {
