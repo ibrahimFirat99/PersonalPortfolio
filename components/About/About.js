@@ -18,7 +18,7 @@ const About = () => {
             Contact me!
           </a>
         </p>
-        <a className={styles.resume} href="IbrahimFiratCV.pdf" target="_blank">
+        <a className={styles.resume} href="/IbrahimFiratCV.pdf" target="_blank">
           My Resume
         </a>
       </div>
